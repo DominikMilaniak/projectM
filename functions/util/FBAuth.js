@@ -17,7 +17,6 @@ module.exports = (req, res, next) => {
     .verifyIdToken(accessToken)
     .then((decodedToken) => {
       req.user = decodedToken;
-      console.log(decodedToken);
       req.user.uid = req.user.uid;
       return next();
     })

@@ -1,1 +1,10 @@
 node_modules/
+
+# Config file
+util/config.js
+
+# Config file 2
+util/firebaseConfig.js
+
+# Config file 3
+util/servicekey.json
